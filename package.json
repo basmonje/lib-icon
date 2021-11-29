@@ -1,0 +1,33 @@
+{
+  "name": "@basmonje/libicon",
+  "version": "1.0.0",
+  "main": "dist/index.d.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf src/components && rimraf dist",
+    "build": "npm run svgr && rollup -c",
+    "svgr": "svgr --no-dimensions --svg-props width=20 --svg-props height=20 --svg-props  className=--icon --svg-props strokeWidth=1 --typescript -d src/components src/icons"
+  },
+  "keywords": [],
+  "author": "basmonje",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@svgr/cli": "^5.5.0",
+    "@types/react": "^17.0.33",
+    "react": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.58.3",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
