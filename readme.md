@@ -13,11 +13,8 @@ npm i @basmonje/libicon
 ```js
 import { Menu } from "@basmonje/libicon"
 
-const Navbar = () => (
-    <nav>
-        <Menu>
-    </nav>
-)
+<Menu />
+
 
 ```
 
