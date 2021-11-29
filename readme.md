@@ -5,7 +5,7 @@ Biblioteca de iconos para React de uso personal.
 # Instalación
 
 ```bash
-npm i @basmonje/libicon
+npm install @basmonje/lib-icon
 ```
 
 # Uso
