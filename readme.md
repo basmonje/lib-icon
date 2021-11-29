@@ -1,4 +1,4 @@
-# Simple biblioteca de iconos de react
+# @basmonje/lib-icon
 
 Biblioteca de iconos para React de uso personal.
 

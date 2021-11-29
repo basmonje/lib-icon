@@ -1,9 +1,13 @@
 {
-  "name": "@basmonje/libicon",
-  "version": "1.0.0",
+  "name": "@basmonje/lib-icon",
+  "version": "1.0.1",
   "main": "dist/index.d.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/basmonje/lib-icon"
+	},
   "files": [
     "dist"
   ],
@@ -13,7 +17,7 @@
     "svgr": "svgr --no-dimensions --svg-props width=20 --svg-props height=20 --svg-props  className=--icon --svg-props strokeWidth=1 --typescript -d src/components src/icons"
   },
   "keywords": [],
-  "author": "basmonje",
+  "author": "Bastian Monje",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.6",
