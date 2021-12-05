@@ -11,11 +11,9 @@ npm install @basmonje/lib-icon
 # Uso
 
 ```js
-import { Menu } from "@basmonje/libicon"
+import { Menu } from "@basmonje/lib-icon"
 
 <Menu />
-
-
 ```
 
 # Inspiración
